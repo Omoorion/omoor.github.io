@@ -1,3 +1,3 @@
 # Omoor.github.io
 I do be Omoorin' like that though
-Ey don' muck with me wal
+The Link do be: https://omoorion.github.io/omoor.github.io/Index
