@@ -1,0 +1,240 @@
+/* Place your CSS styles in this file */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+a:hover {
+  color: ghostwhite;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+
+.rainbowsquare {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: move;
+  animation-duration: 9s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+img {
+  margin-left: 20px;
+  position: relative;
+}
+
+.topdiv {
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  vertical-align: top;
+  word-spacing: 35px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("ARAD");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.circleImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.invertOmoorMRC {
+  animation-name: MRC;
+  animation-duration: 9s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+.invertOmoorRC {
+  animation-name: RC;
+  animation-duration: 18s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+img:hover {
+  animation-play-state: paused;
+  width: 55px;
+  height: 55px;
+  border-radius: 25.5px;
+}
+
+@keyframes move {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    transform: rotate(0deg);
+  }
+  12.5% {
+    background-color: orange;
+    transform: rotate(360deg);
+  }
+  25% {
+    background-color: yellow;
+    left: 0px;
+    top: 200px;
+    transform: rotate(0deg);
+  }
+  37.5% {
+    background-color: yellowgreen;
+    transform: rotate(360deg);
+  }
+  50% {
+    background-color: green;
+    left: 200px;
+    top: 200px;
+    transform: rotate(0deg);
+  }
+  62.5% {
+    background-color: blue;
+    transform: rotate(360deg);
+  }
+  75% {
+    background-color: indigo;
+    left: 200px;
+    top: 0px;
+    transform: rotate(0deg);
+  }
+  87.5% {
+    background-color: purple;
+    transform: rotate(360deg);
+  }
+  100% {
+    background-color: violet;
+    left: 0px;
+    top: 0px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes MRC {
+  0% {
+    filter: hue-rotate(0deg);
+    left: 0px;
+    top: 0px;
+    transform: rotate(0deg);
+  }
+  12.5% {
+    filter: hue-rotate(45deg);
+    transform: rotate(360deg);
+  }
+  25% {
+    filter: hue-rotate(90deg);
+    left: 0px;
+    top: 50px;
+    transform: rotate(0deg);
+  }
+  37.5% {
+    filter: hue-rotate(135deg);
+    transform: rotate(360deg);
+  }
+  50% {
+    filter: hue-rotate(180deg);
+    left: 50px;
+    top: 50px;
+    transform: rotate(0deg);
+  }
+  62.5% {
+    filter: hue-rotate(135deg);
+    transform: rotate(360deg);
+  }
+  75% {
+    filter: hue-rotate(90deg);
+    left: 50px;
+    top: 0px;
+    transform: rotate(0deg);
+  }
+  87.5% {
+    filter: hue-rotate(45deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+    left: 0px;
+    top: 0px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes RC {
+  0% {
+    filter: hue-rotate(0deg);
+    transform: rotate(0deg);
+  }
+  12.5% {
+    filter: hue-rotate(45deg);
+    transform: rotate(360deg);
+  }
+  25% {
+    filter: hue-rotate(90deg);
+    transform: rotate(0deg);
+  }
+  37.5% {
+    filter: hue-rotate(135deg);
+    transform: rotate(360deg);
+  }
+  50% {
+    filter: hue-rotate(180deg);
+    transform: rotate(0deg);
+  }
+  62.5% {
+    filter: hue-rotate(135deg);
+    transform: rotate(360deg);
+  }
+  75% {
+    filter: hue-rotate(90deg);
+    transform: rotate(0deg);
+  }
+  87.5% {
+    filter: hue-rotate(45deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
