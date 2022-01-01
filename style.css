@@ -83,7 +83,7 @@ h1 {
 }
 
 .sectiondiv {
-  background-image: url("Images/HeroScrolls.png");
+  background-image: url("./Images/HeroScrolls.png");
   background-size: cover;
   background-repeat: no-repeat;
   border: solid 10px crimson;
