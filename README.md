@@ -1,2 +1,2 @@
 # Omoor.github.io
-### Link: https://omoorion.github.io/omoor.github.io/Index
+### Link: [Click here](https://omoorion.github.io/omoor.github.io/Index)
